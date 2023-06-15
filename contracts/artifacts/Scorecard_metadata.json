@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_studentFirstName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_studentLastName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					}
+				],
+				"name": "studentAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_englishMarks",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_mathsMarks",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_scienceMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "studentScoresRecorded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_studentFirstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_studentLastName",
+						"type": "string"
+					}
+				],
+				"name": "addStudentDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_englishMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mathsMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_scienceMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudentScores",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "classTeacher",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Scorecard.sol": "Scorecard"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Scorecard.sol": {
+			"keccak256": "0x351ecf7fd76ccee0d0c613b29f94727edf1725783a9024981f5d3d524532a22c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba2f4afb4a1098e03d919c668d7a1f1fad38295c59b987490dc08939fa2e7776",
+				"dweb:/ipfs/QmW7WqFJfUeNtMei2BeGEJFqF1zHjRdbuGa3TcimXqwA82"
+			]
+		}
+	},
+	"version": 1
+}
